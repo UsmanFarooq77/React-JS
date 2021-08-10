@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid pink;
+    background-color: crimson;
+}
+
+.header > ul {
+    list-style-type: none;
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    border: 2px dotted green;
+    padding-left: 0px;
+    background-color: #eee;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+li > a {
+    text-decoration: none;
+    color:black;
+    border: 2px dashed red;
+    margin-top: 2px;
+}
+
+@media  (max-width:768px) {
+    .header > ul {
+        flex-direction: column;
+    }
+}
+
