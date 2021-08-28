@@ -3,6 +3,7 @@ import { React } from 'react';
 // const StudentList = ({ parent, onchange }) => {
 
     const StudentList = (props) => {
+
     // This method is used in Class Components.
     // onTrigger = (event) => {
     //     this.props.parentCallback("Data from child");
@@ -20,7 +21,6 @@ import { React } from 'react';
             <h1>{props.parent}</h1>
             {/* <h1>{parent}</h1> */}
             <p>Hi, i am your child Student Lists.</p>
-            <p></p>
             {/* <p>{props.parent = "Child here"}</p> */}
             <div>
                 <form>

@@ -1,9 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Main from './Components/Main'
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Header from "./Components/Header";
 import Student from "./Components/Student";
+import Footer from './Components/Footer';
 import {
   NavLink,
   Switch,
@@ -17,6 +19,8 @@ function App() {
     <>
     <Router>
     <Header/>
+    <Main/>
+    <Footer/>
             <Switch>
               {/* <Route exact path="/" component={App}></Route> */}
               <Route exact path="/"></Route>

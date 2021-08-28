@@ -3,15 +3,18 @@ import React, { useState, Component } from 'react';
 import { Link } from 'react-router-dom';
 import StudentList from './Student-Lists';
 const Student = () => {
+
     // This way of method is used in Class Components.
     // handleCallback = (childData) => {
     //     this.setState({ data: childData })
     // }
+    
     const [value, setValue] = useState('goos')
-    // render() {
+    
     const onchange = (dataFromChild) => {
         setValue(dataFromChild);
         // console.log('Data from child is = ', dataFromChild);
+        // render() {
     }
     return (
         <>

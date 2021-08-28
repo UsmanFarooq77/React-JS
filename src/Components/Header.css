@@ -9,7 +9,7 @@
 .header > ul {
     list-style-type: none;
     display: flex;
-    width: 15%;
+    width: 50%;
     justify-content: space-around;
     border: 2px dotted green;
     padding-left: 0px;
@@ -29,6 +29,8 @@ li > a {
 @media  (max-width:768px) {
     .header > ul {
         flex-direction: column;
+        box-sizing: border-box;
+        padding: 10px;
     }
 }
 
